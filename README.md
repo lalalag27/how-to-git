@@ -5,7 +5,7 @@
 3.git commit 至本地資料庫 (Local Repository)
 4.git push 至 GitHub 資料庫 (Remote Repository)
 
-＃ 步驟：
+＃# 步驟：
 創建目錄
 ```
 git init
@@ -40,7 +40,7 @@ git push -u origin main
 ```
 
 
-＃ 更新檔案後上傳
+＃# 更新檔案後上傳
 將工作區內所有檔案鍵入索引
 ```
 git add .
