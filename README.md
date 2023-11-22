@@ -32,7 +32,7 @@ git branch
 ```
 將與github線上的歷史紀錄一起合併（第一次一定要確實核對是否有合併）
 ```
-git pull --allow-unreleated-histories
+git pull origin main --allow-unrelated-histories
 ```
 將自有更新的檔案上傳到github
 ```
@@ -41,6 +41,10 @@ git push -u origin main
 
 
 ＃# 更新檔案後上傳
+先git pull,讓歷史紀錄同步
+```
+git pull
+```
 將工作區內所有檔案鍵入索引
 ```
 git add .
@@ -48,6 +52,10 @@ git add .
 將索引檔案加入指定github路徑
 ```
 git commit -m "要上傳的名稱"
+```
+上傳到github
+```
+git push
 ```
 原本設置的分支為master,要改成main
 ```
