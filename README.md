@@ -34,7 +34,7 @@ git branch
 ```
 git pull origin main --allow-unrelated-histories
 ```
-將自有更新的檔案上傳到github
+將自有更新的檔案上傳到github (-u的意思是要將push預設分支改成main ,如果修改分支記得再更動分支名稱)
 ```
 git push -u origin main
 ```
